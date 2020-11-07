@@ -1,5 +1,5 @@
 public class CreditPaymentService {
-    public int calculate(double creditAmount, double creditTerm) {
+    public int calculate(int creditAmount, int creditTerm) {
         double annualInterestRate = 9.99;
         double numberOfMonth = creditTerm * 12;
         double monthlyInterestRate = annualInterestRate / 100 / 12;
